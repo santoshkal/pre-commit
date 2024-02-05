@@ -12,11 +12,9 @@ signed_commit=$(git verify-commit $latest_commit 2>&1)
 # Check for a valid signature
 if [[ $signed_commit == *"Validated Git signature: true"* ]]; then
     echo "Latest commit is signed with gitsign."
-    exit 0
 else
     echo "WARNING: The latest commit is not signed with gitsign."
     # Optionally, you can uncomment the next line to block the commit
     exit 1
 fi
 
-exit 0

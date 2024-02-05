@@ -30,4 +30,3 @@ fi
 
 # If all checks pass
 echo "All Dockerfiles are compliant."
-exit 0
