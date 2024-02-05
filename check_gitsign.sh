@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 set -eo pipefail
 
 # Pre-commit hook to check if the latest commit is signed using gitsign
