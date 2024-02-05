@@ -5,7 +5,7 @@ repos:
   - id: check-yaml
     name: Check Yaml syntax
     stages: [commit]
-- repo: https://github.com/santoshkal/pre-commit-hooks
+- repo: https://github.com/santoshkal/pre-commit
   rev: v0.0.1
   hooks:
   - id: check-devcontainer
@@ -13,7 +13,7 @@ repos:
     language: system
 
 # Check for Dockerfile in a project
-- repo: https://github.com/santoshkal/pre-commit-hooks
+- repo: https://github.com/santoshkal/pre-commit
   rev: v0.0.1
   hooks:
   - id: check-dockerfile
@@ -21,7 +21,7 @@ repos:
     language: system
 
 # Check commit signed by gitsign
-- repo: https://github.com/santoshkal/pre-commit-hooks
+- repo: https://github.com/santoshkal/pre-commit
   rev: v0.0.1
   hooks:
   - id: check-gitsign

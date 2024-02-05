@@ -20,3 +20,4 @@ fi
 
 # The script will always exit successfully, even if devcontainer.json is missing
 exit 0
+``
