@@ -1,5 +1,5 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
+set -eo pipefail
 # Pre-commit hook to check for the existence of devcontainer.json and issue a warning in yellow if it's missing
 
 # Path to the devcontainer.json file

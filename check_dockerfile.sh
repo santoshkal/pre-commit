@@ -1,4 +1,5 @@
-#!/bin/bash/env bash
+#!/usr/bin/env bash
+
 set -eo pipefail
 # Pre-commit hook to check Dockerfile base images
 
