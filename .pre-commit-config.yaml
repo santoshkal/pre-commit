@@ -10,7 +10,7 @@ repos:
   hooks:
   - id: check-devcontainer
     name: Check devcontainer
-    language: system
+    language: script
 
 # Check for Dockerfile in a project
 - repo: https://github.com/santoshkal/pre-commit
@@ -18,7 +18,7 @@ repos:
   hooks:
   - id: check-dockerfile
     name: Check Dockerfile
-    language: system
+    language: script
 
 # Check commit signed by gitsign
 - repo: https://github.com/santoshkal/pre-commit
@@ -26,4 +26,4 @@ repos:
   hooks:
   - id: check-gitsign
     name: Check GitSign
-    language: system
+    language: script
